@@ -1,0 +1,85 @@
+#pattern {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+
+/* 슬라이드쇼 이미지 스타일 */
+.slide {
+    display: none;
+    width: 100%;
+    height: 400px;
+  }
+  
+  /* 화살표 버튼 스타일 */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 16px;
+    margin-top: -30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* 다음 버튼 스타일 */
+  .next {
+    right: 0;
+  }
+  
+  /* 포트폴리오 링크 이미지 스타일 */
+  #portfolio-links img {
+    width: 30%;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  /* 나에 대해 알아보기 버튼 스타일 */
+  #about-me-button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* 페이지 전체 스타일 */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* 헤더 스타일 */
+  header {
+    background-color: rgba(0, 0, 0,0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    /* 메인 내용 스타일 */
+    main {
+    margin: 30px;
+    text-align: center;
+    }
+    
+    /* 푸터 스타일 */
+    footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+  
